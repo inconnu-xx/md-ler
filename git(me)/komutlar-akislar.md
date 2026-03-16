@@ -18,3 +18,33 @@ git stash = yarım kalan değisiklikleri gecici olarak saklar
 
 
 
+AKIŞ ÖRNEKLERİ
+
+örn 1: yeni proje baslatmak
+--proje klasörünü oluşturdun ve terminali actın
+git init = proje dosyasının icinde git takibi icin gizli bir git klasörü olusturursun
+--kodları yazdın ve dosyaların oluştu
+git add = tüm değişiklikleri staging alanına koyar ve commite hazırlar
+git commit -m "ilk commit" = proje gecmisi kaydedilir ve ilk version oluşmuş olur
+
+
+
+örn 2: githuba proje yüklemek
+--yerelde commit atıldı, sunucuya yüklenecek
+git remote add origin repo_adresi = repoyu bagladın
+git push -u origin main = projeyi githuba gönderdin
+
+
+
+örn 3: var olan projeyi pc ye yüklemek
+git clone repo_adresi = proje iner, commit gecmisi iner, remote bağlantısı kurulur
+artık proje pcde dir
+
+
+
+örn 4: normal geliştirme akısı
+--projeyi indirdin ve kod yazdın
+git status = değisiklikleri kontrol edersin. git sana hangi dosyaların değistiğini söyler
+git add . = commite hazırlarsın
+git commit -m "login sistemi eklendi" = commit atarsın
+git push = githuba gönderirsin
