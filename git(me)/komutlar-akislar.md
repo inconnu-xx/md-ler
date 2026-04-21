@@ -24,7 +24,7 @@ AKIŞ ÖRNEKLERİ
 --proje klasörünü oluşturdun ve terminali actın
 git init = proje dosyasının icinde git takibi icin gizli bir git klasörü olusturursun
 --kodları yazdın ve dosyaların oluştu
-git add = tüm değişiklikleri staging alanına koyar ve commite hazırlar
+git add . = tüm değişiklikleri staging alanına koyar ve commite hazırlar
 git commit -m "ilk commit" = proje gecmisi kaydedilir ve ilk version oluşmuş olur
 
 
